@@ -198,7 +198,7 @@ def user_stats(df):
             print('-'*40)
             break
         except:
-            print('\nThe genre field does not exist in the selected file, so no results are shown.')
+            print('\n Sorry, the genre field does not exist in the selected file, so no results are shown.')
             break
 
 #To display five records of the file#
