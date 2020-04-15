@@ -202,6 +202,7 @@ def user_stats(df):
             break
 
 #To display five records of the file#
+# Improvement point, a single question to enter the cycle#
 def data(df):
     row_data = 0
     while True:
@@ -215,8 +216,8 @@ def data(df):
             if again == 'no':
                 break
         elif response == 'no':
-            return            
-            
+            return
+
 def main():
     city = ""
     month = ""
