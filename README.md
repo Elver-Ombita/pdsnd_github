@@ -21,6 +21,8 @@ This project has the following functionalities:
     * Python
 
 ### Credits
+Developer Andrey Ombita andreyombita@gmail.com
+
 Thanks to [Udacity][1] and their instructors for the training.
 
 [1]: https://www.udacity.com/ "Title"
