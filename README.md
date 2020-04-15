@@ -9,6 +9,7 @@ This project has the following functionalities:
 * To Make mobility study on bikes from this cities: New York City, Chicago and Washington
 * To Have statistics on the use of the bicycle transport system.
 * List the records supporting the study.
+* Console interactive software
 
 ### Files used
 1. Files used
