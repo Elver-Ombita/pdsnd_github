@@ -91,6 +91,7 @@ def time_stats(df):
     start_time = time.time()
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     # TO DO: display the most common month
+    # Improvement point, show te city in string type#
     df['month'] = df['Start Time'].dt.month
     common_month = df['month'].mode()[0]
     print('\nThe most common month of travel is {}\n'.format(common_month))
@@ -198,10 +199,11 @@ def user_stats(df):
             print('-'*40)
             break
         except:
-            print('\nThe genre field does not exist in the selected file, so no results are shown.')
+            print('\n Sorry, the genre field does not exist in the selected file, so no results are shown.')
             break
 
 #To display five records of the file#
+# Improvement point, a single question to enter the cycle#
 def data(df):
     row_data = 0
     while True:
@@ -215,8 +217,8 @@ def data(df):
             if again == 'no':
                 break
         elif response == 'no':
-            return            
-            
+            return
+
 def main():
     city = ""
     month = ""
