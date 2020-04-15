@@ -11,7 +11,14 @@ This project has the following functionalities:
 * List the records supporting the study.
 
 ### Files used
-Include the files used
+1. Files used
+    * Chicago.csv
+    * New York City.csv
+    * Washington
+2. Software used
+    * Atom
+    * Anaconda
+    * Python
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
