@@ -21,4 +21,6 @@ This project has the following functionalities:
     * Python
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Thanks to [Udacity][1] and their instructors for the training.
+
+[1]: https://www.udacity.com/ "Title"
